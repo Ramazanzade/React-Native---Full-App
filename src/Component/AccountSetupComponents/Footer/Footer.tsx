@@ -1,13 +1,12 @@
 import { View, Text, TouchableOpacity, Animated } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { SCREEN_WIDTH } from '../../../Utils/common'
 
 const Footer = ({navigation}:any) => {
     return (
             <View style={{ alignSelf: 'center' }}>
                 <View style={{ alignSelf: 'center', display: 'flex', flexDirection: 'row', marginBottom: '6%' }}>
                     <Text style={{ color: '#A9A9A9', fontSize: 12, fontWeight: '500' }}>Don’t have an account ?  </Text>
-                    <TouchableOpacity onPress={() => navigation.navigate('LoginScreen')}>
+                    <TouchableOpacity onPress={() => navigation.navigate('RegisterScreen')}>
                         <Text style={{ color: '#F63D68', fontSize: 12, fontWeight: '500' }}>Register</Text>
                     </TouchableOpacity>
                 </View>

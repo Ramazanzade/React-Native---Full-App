@@ -43,7 +43,7 @@ const AccountSetup = ({ navigation }: any) => {
                                 <Facebook_entry />
                             </View>
                             <View style={{ alignSelf: 'center', marginTop: '25%' }}>
-                                <Footer />
+                                <Footer  navigation={navigation} />
                             </View>
                         </View>
                         <View style={{ marginTop: '-7%' }}>

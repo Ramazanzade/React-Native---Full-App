@@ -8,19 +8,19 @@ import Apple_entry from '../../Contance/Apple_entry/Apple_entry'
 import Facebook_entry from '../../Contance/Facebook_entry/Facebook_entry'
 import Footer from '../../Component/AccountSetupComponents/Footer/Footer'
 
-const Login = () => {
+const Login = ({navigation}:any) => {
     return (
         <View style={{ flex: 1, backgroundColor: '#FFFFFF' }}>
             <Login_Headr />
-            <Login_Input />
+            <Login_Input  navigation={navigation} />
             <View style={{display:'flex', flexDirection:'column', justifyContent:'space-evenly', flex:1}}>
                 <View style={{ display: 'flex', flexDirection: 'row', alignSelf: 'center' }}>
-                    <Google_entry />
+                    <Google_entry  />
                     <Apple_entry />
                     <Facebook_entry />
                 </View>
                 <View style={{ alignSelf: 'center'}}>
-                    <Footer />
+                    <Footer   navigation={navigation}/>
                 </View>
             </View>
         </View>
