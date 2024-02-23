@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
-import Apple from '../../../assets/imge/Accountsetup-imge/apple-seeklogo.com 1.svg'
+import Apple from '../../assets/imge/Accountsetup-imge/apple-seeklogo.com 1.svg'
 
 const Apple_entry = () => {
     return (

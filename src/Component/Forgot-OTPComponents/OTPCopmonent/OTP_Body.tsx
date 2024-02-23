@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const ForgotOtp = () => {
+const OTP_Body = () => {
   return (
     <View>
-      <Text>ForgotOtp</Text>
+      <Text>OTP_Body</Text>
     </View>
   )
 }
 
-export default ForgotOtp
+export default OTP_Body
