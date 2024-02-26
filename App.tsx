@@ -18,7 +18,7 @@ const App = () => {
         <Stack.Screen name="AccountSetupScreen" component={AccountSetupScreen} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="ForgotOtpScreen" component={ForgotOtpScreen} />
-        <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
+        {/* <Stack.Screen name="RegisterScreen" component={RegisterScreen} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
