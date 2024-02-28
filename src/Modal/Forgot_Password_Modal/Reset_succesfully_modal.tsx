@@ -10,7 +10,7 @@ const Reset_succesfully_modal = ({ navigation }: any) => {
         setloading(true)
         setTimeout(() => {
             setloading(false)
-            navigation.navigate('LoginScreen')
+            // navigation.navigate('LoginScreen')
 
         }, 3000)
     }
