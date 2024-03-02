@@ -7,7 +7,7 @@ const OTP = ({navigation}:any) => {
     return (
         <View style={{flex:1, backgroundColor:'#FFFFFF'}}>
             <OTP_Headr navigation={navigation}/>
-            <OTP_Body navigation={navigation}/>
+            <OTP_Body numInputs={4} />
         </View>
     )
 }
